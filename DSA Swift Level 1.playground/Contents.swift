@@ -61,12 +61,12 @@
 //   |-----------------------------------------|
 
 // var arr = [31,98,41,74,51,47,61,71]
-// var target = 47
-// for (index,item) in arr.enumerated() {
-//     if(item == target){
-//         print("\(index)")
-//     }
-// }
+ var target = 47
+ for (index,item) in arr.enumerated() {
+     if(item == target){
+         print("\(index)")
+     }
+ }
 
 //   |-----------------------------------------|
 //.  |                                         |
