@@ -8,14 +8,14 @@
 //   |                                         |
 //   |-----------------------------------------|
 
-// var arr = [4,6,9,5,3,2]
-// var max = -1
-// for item in arr {
-//     if (item > max ){
-//         max = item
-//     }
-// }
-// print (max)
+ var arr = [4,6,9,5,3,2]
+ var max = -1
+ for item in arr {
+     if (item > max ){
+         max = item
+     }
+ }
+ print (max)
 
 //   |-----------------------------------------|
 //.  |                                         |
