@@ -23,22 +23,22 @@
 //   |                                         |
 //   |-----------------------------------------|
    
-// var arr = [ 3,22,5,34,77,81,59,26]
-// var even_count = 0
-// var odd_count = 0
-// for item in arr {
-//     if(item % 2 == 0){
-//     print ((item,"even"),terminator:"")
-//       even_count += 1
-//     }
-//     else {
-//     print((item,"=odd"),terminator:"")
-//         odd_count += 1
-//     }
-// }
-// print("\n")
-// print ("Even count = \(even_count)")
-// print ("Odd count = \(odd_count)")
+ var arr = [ 3,22,5,34,77,81,59,26]
+ var even_count = 0
+ var odd_count = 0
+ for item in arr {
+     if(item % 2 == 0){
+     print ((item,"even"),terminator:"")
+       even_count += 1
+     }
+     else {
+     print((item,"=odd"),terminator:"")
+         odd_count += 1
+     }
+ }
+ print("\n")
+ print ("Even count = \(even_count)")
+ print ("Odd count = \(odd_count)")
 
 //   |-----------------------------------------|
 //.  |                                         |
