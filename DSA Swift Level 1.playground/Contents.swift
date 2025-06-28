@@ -75,17 +75,17 @@
 //   |-----------------------------------------|
 
 // var arr = [47,89,23,89,51,87,51,87,78]
-// var ans: [Int] = []
-// for item1 in arr {
-//   var freq = 0
-// for item2 in arr {
-//     if(item1 == item2 ) {
-//         freq += 1
-//     }
-// }
-// ans.append(freq)
-// }
-// print(ans)
+ var ans: [Int] = []
+ for item1 in arr {
+   var freq = 0
+ for item2 in arr {
+     if(item1 == item2 ) {
+         freq += 1
+     }
+ }
+ ans.append(freq)
+ }
+ print(ans)
 
 //   |-----------------------------------------|
 //.  |                                         |
