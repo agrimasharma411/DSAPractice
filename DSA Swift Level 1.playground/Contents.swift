@@ -110,7 +110,18 @@
 
 
 
-
+// var arr = [10, 20, 30, 40, 50]
+// var s = 0
+// var e = arr.count - 1
+// while s < e {
+//     let temp = arr[s]
+//     arr[s] = arr[e]
+//     arr[e] = temp
+    
+//     s += 1
+//     e -= 1
+// }
+// print(arr)
 
 
 
