@@ -21,3 +21,34 @@
 //         return secondMax;
 //     }
 // }
+//   |-----------------------------------------|
+//.  |                                         |
+//   |QUESTION-6  Remove duplicates            |
+//   |                                         |
+//   |-----------------------------------------|
+// import java.util.*;
+// class Main {
+//     public static void main (String [] args) {
+//         int[] Arr= { 1,2,3,4,5,5,6 };
+//         ArrayList<Integer> ans = removeDuplicate(Arr);
+//         System.out.print(ans);
+
+//     }
+//     public static ArrayList<Integer> removeDuplicate (int [] Arr) {
+//     int n = Arr.length;
+//   ArrayList<Integer> result = new ArrayList<>();
+//   for(int i = 0; i<n; i++){
+//      if (!result.contains(Arr[i])) {
+//       result.add(Arr[i]);
+//       }
+
+
+//   }
+//   return result;
+
+
+//     }
+// }
+
+
+
