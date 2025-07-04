@@ -122,7 +122,29 @@
 //  }
 // }
 // print (ans)
-    
+//   |-----------------------------------------|
+//.  |                                         |
+//   |  QUESTION-7    Reverse an array         |
+//   |                                         |
+//   |-----------------------------------------|
+//
+
+//var arr = [10, 20, 30, 40, 50]
+//
+//var left = 0
+//var right = arr.count - 1
+//
+//while left < right {
+//    let temp = arr[left]
+//    arr[left] = arr[right]
+//    arr[right] = temp
+//    
+//    left += 1
+//    right -= 1
+//}
+//
+//print("Reversed array: \(arr)")
+//    
 
 
 
