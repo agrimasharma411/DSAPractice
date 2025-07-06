@@ -14,8 +14,8 @@
 //     if (item > max ){
 //         max = item
 //     }
- }
- print (max)
+// }
+// print (max)
 
 //   |-----------------------------------------|
 //.  |                                         |
@@ -124,7 +124,7 @@
 // print (ans)
 //   |-----------------------------------------|
 //.  |                                         |
-//   |  QUESTION-7    Reverse an array         |
+//   |  QUESTION-8    Reverse an array         |
 //   |                                         |
 //   |-----------------------------------------|
 //
@@ -144,7 +144,34 @@
 //}
 //
 //print("Reversed array: \(arr)")
-//    
+//
+
+//   |----------------------------------------------------|
+//   |                                                    |
+//   |  QUESTION-9 Array is Palindromic or not            |
+//   |                                                    |
+//   |----------------------------------------------------|
+
+// let arr = [1,2,3,4,4,2,1]
+// var s = 0
+// var e = arr.count - 1
+// var isPalindromic = true
+// while (s < e){
+// if( arr[s] != arr[e]) {
+// isPalindromic = false
+// break
+// }
+// s += 1
+// e -= 1
+// }
+// if isPalindromic {
+//     print("yes palindromic")
+// }
+// else{
+//  print ("not palindromic")
+// }
+
+
 
 
 
