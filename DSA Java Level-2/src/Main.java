@@ -51,4 +51,28 @@
 // }
 
 
-
+ //  |-----------------------------------------|
+//.  |                                         |
+//   |QUESTION-6  Bubble Sort                  |
+//   |                                         |
+//   |-----------------------------------------|
+// import java.util.Arrays;
+// class Main {
+// public static void main(String[] args ){
+//     int[] ans = {5,2,9,6,8,10,1};
+//     sort(ans);
+//     System.out.println(Arrays.toString(ans));
+// }
+// public static void sort( int[] Arr ) {
+// int n = Arr.length;
+// int [] result = new int[n];
+// for(int i = 0; i < n-1; i++){
+//     for(int j = 0; j<n-1-i; j++){
+//         if (Arr[j]>Arr[j+1]){
+//         int temp = Arr[j];
+//         Arr[j] = Arr[j+1];
+//         Arr[j+1] = temp;
+//         }
+//     }
+// }
+// }
