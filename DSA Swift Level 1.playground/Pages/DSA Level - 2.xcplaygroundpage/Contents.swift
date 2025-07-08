@@ -171,6 +171,27 @@
 //  print ("not palindromic")
 // }
 
+//   |----------------------------------------------------|
+//   |                                                    |
+//   |  QUESTION-9        Bubble Sort                     |
+//   |                                                    |
+//   |----------------------------------------------------|
+
+//var arr = [22,16,9,4,0,56]
+//var n = arr.count
+//var ans:[Int] = []
+//for i in 0..<n-1 {
+//    for j in 0..<n-1-i {
+//        if (arr[j]<=arr[j+1]){
+//            let temp = arr[j]
+//            arr[j] = arr[j+1]
+//            arr[j+1] = temp
+//        }
+//    }
+//}
+//print(arr)
+//
+
 
 
 
