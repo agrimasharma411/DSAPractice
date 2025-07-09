@@ -76,3 +76,35 @@
 //     }
 // }
 // }
+
+
+//   |-----------------------------------------|
+//.  |                                         |
+//   |QUESTION-6  Reverse a portion of Ar      |
+//   |                                         |
+//   |-----------------------------------------|
+
+//import java.util.Arrays;
+
+// class Main {
+//     public static void main(String[] args) {
+//       int[] A = { 1,2,3,4,5,6,7,8,9};
+//       int s = 3;
+//       int e = 7;
+//       reverse (A,s,e);
+//       System.out.println(Arrays.toString(A));
+//     }
+
+//     public static void reverse(int[]A, int s, int e){
+//         int n = A.length;
+//      while (s<e){
+//             int temp = A[s];
+//             A[s] = A[e];
+//             A[e] =temp;
+//             s++;
+//             e--;
+//         }
+//     }
+
+// }
+
