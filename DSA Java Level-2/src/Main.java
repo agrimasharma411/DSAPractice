@@ -23,7 +23,7 @@
 // }
 //   |-----------------------------------------|
 //.  |                                         |
-//   |QUESTION-6  Remove duplicates            |
+//   |QUESTION-7  Remove duplicates            |
 //   |                                         |
 //   |-----------------------------------------|
 // import java.util.*;
@@ -53,7 +53,7 @@
 
  //  |-----------------------------------------|
 //.  |                                         |
-//   |QUESTION-6  Bubble Sort                  |
+//   |QUESTION-8  Bubble Sort                  |
 //   |                                         |
 //   |-----------------------------------------|
 // import java.util.Arrays;
@@ -80,7 +80,7 @@
 
 //   |-----------------------------------------|
 //.  |                                         |
-//   |QUESTION-6  Reverse a portion of Ar      |
+//   |QUESTION-9  Reverse a portion of Ar      |
 //   |                                         |
 //   |-----------------------------------------|
 
@@ -105,6 +105,31 @@
 //             e--;
 //         }
 //     }
-
 // }
+//   |--------------------------------------------------|
+//.  |                                                  |
+//   |QUESTION-10  Find 1st & Last occurance of ele      |
+//   |                                                  |
+//   |--------------------------------------------------|
+// class Main {
+//     public static void main (String [] args) {
+//      int[]   A = { 3,6,4,4,4,6,7,2};
+//          int x = 4;
+//       occurance(A,x); // just call the method , no need to print like in return function
+//     }
+// public static void occurance(int[]A, int x) {
+//     int n = A.length;
+//     for(int i = 0; i<n; i++){
+//         if(A[i]==x) {
+//         System.out.println("fst occ: " + i);
+//         break;
+//         }
+//     }
+//     for(int i = n-1; i>=0; i--){
+//         if(A[i]==x){
+//         System.out.print("last occ: " + i);
+//         break;
+//         }
+//     }
+
 
