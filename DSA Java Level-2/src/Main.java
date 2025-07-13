@@ -1,3 +1,9 @@
+
+//   |-----------------------------------------|
+//.  |                                         |
+//   |QUESTION-7  Second Max Number            |
+//   |                                         |
+//   |-----------------------------------------|
 // class Main {
 //     public static void main (String[] args){
 //         int [] Arr = {2,4,6,8,3,22,34};
@@ -23,7 +29,7 @@
 // }
 //   |-----------------------------------------|
 //.  |                                         |
-//   |QUESTION-7  Remove duplicates            |
+//   |QUESTION-8  Remove duplicates            |
 //   |                                         |
 //   |-----------------------------------------|
 // import java.util.*;
@@ -53,7 +59,7 @@
 
  //  |-----------------------------------------|
 //.  |                                         |
-//   |QUESTION-8  Bubble Sort                  |
+//   |QUESTION-9  Bubble Sort                  |
 //   |                                         |
 //   |-----------------------------------------|
 // import java.util.Arrays;
@@ -80,7 +86,7 @@
 
 //   |-----------------------------------------|
 //.  |                                         |
-//   |QUESTION-9  Reverse a portion of Ar      |
+//   |QUESTION-10  Reverse a portion of Ar     |
 //   |                                         |
 //   |-----------------------------------------|
 
@@ -108,7 +114,7 @@
 // }
 //   |--------------------------------------------------|
 //.  |                                                  |
-//   |QUESTION-10  Find 1st & Last occurance of ele      |
+//   |QUESTION-11  Find 1st & Last occurance of ele      |
 //   |                                                  |
 //   |--------------------------------------------------|
 // class Main {
@@ -131,5 +137,32 @@
 //         break;
 //         }
 //     }
+ //  |--------------------------------------------------|
+//.  |                                                  |
+//   |QUESTION-12  Check array is palindromic or not    |
+//   |                                                  |
+//   |--------------------------------------------------|
+
+// class Main {
+// public static void main (String [] args ) {
+// int [] arr = { 2,9,4,4,3,2 };
+// checkPalindromic(arr);
+// }
+// public static void checkPalindromic (int[] Ar){
+//     int n = Ar.length;
+//     int s = 0;
+//     int e = n-1;
+//   while (s<e){
+//       if(Ar[s] != Ar[e]){
+//           System.out.print("Not palindromic");
+//           return;
+//       }
+//       s++;
+//       e--;
+//   }
+//   System.out.print("YES Palindromic");
+// }
+//}
+
 
 
